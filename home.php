@@ -79,7 +79,7 @@ $user = mysqli_fetch_assoc($query);
         <p>Level: <?php echo htmlspecialchars($user['level']); ?></p>
         <a href="edit.php">Edit Profile</a>
         <?php if ($user['level'] == 1): ?>
-            <h3>User List</h3>
+            <h3>Data</h3>
             <table>
                 <tr>
                     <th>No</th>

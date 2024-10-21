@@ -104,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             
             <input type="submit" value="Register">
         </form>
-        <p class="login-link">Sudah punya akun? <a href="login.php">Login disini</a></p>
+        <p class="login-link">Sudah Memiliki Akun? <a href="login.php">Login</a></p>
     </div>
 </body>
 </html>
