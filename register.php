@@ -5,9 +5,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $password = md5($_POST['password']);
     $fullname = $_POST['fullname'];
-    $level = 2; // Assuming 2 is for regular users
+    $level = 2; 
     
-    // Check if the level exists in level_detail table
+    
     $check_level = mysqli_query($koneksi, "SELECT * FROM level_detail WHERE id_level = $level");
     if (mysqli_num_rows($check_level) == 0) {
         $error = "Invalid user level";
